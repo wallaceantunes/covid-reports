@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #F4F5F7;
+    color: #0B0528;
+}
+
+body, input, button, textarea {
+    font: 400 16px 'Lato', sans-serif;
+    color: #0B0528;
+}
+
+#home-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    .div-row {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        nav {
+            flex: 1;
+            background: #FFF;
+            height: 100%;
+            padding: 32px 40px 16px 40px;
+            a.link-nav {
+                text-decoration: none;
+                color: #0B0528;
+                font-weight: 700;
+                line-height: 2.5;
+                &:link {
+                    text-decoration: none;
+                    color: #0B0528;
+                }
+            }
+        }
+        main {
+            flex: 5;
+            display: flex;
+            padding: 40px 33px;
+            flex-direction: column;
+            .title{
+                font-weight: 700;
+                font-size: 24px;
+            }
+            .subtitle {
+                line-height: 1.5;
+            }
+            .card {
+                margin: 12px 24px 12px 0;
+                flex: 1;
+                background: #FFF;
+                border-radius: 12px;
+                padding: 24px;
+                .button {
+                    background: #0B0528;
+                    color: #FFF;
+                    padding: 10px 14px;
+                    border-radius: 15px;
+                    border: none;
+                }
+            }
+        }
+    }
+}
