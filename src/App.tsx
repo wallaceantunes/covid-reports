@@ -1,9 +1,7 @@
-function App() {
+import { Home } from './views/Home'
+
+export function App() {
   return (
-    <div className="App">
-      salve pessoas
-    </div>
+    <Home />
   );
 }
-
-export default App;
