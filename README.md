@@ -1,6 +1,8 @@
 # Wallace Antunes
 
 ## Covid Report
+http://covid-report-wallaceantunes.s3-website-us-east-1.amazonaws.com/
+
 
 ## Tecnologias usadas
  - React
