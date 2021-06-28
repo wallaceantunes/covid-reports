@@ -13,7 +13,7 @@ export function CardForm({getForm}: any) {
     }
     return (
         <section className="card">
-            <p className="title">Relatório de casos {date}</p>
+            <p className="title">Relatório de casos</p>
             <form onSubmit={onSubmit}>
                 <div className="div-row">
                     <div className="div-column">
