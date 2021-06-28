@@ -3,6 +3,7 @@ nav {
     background: #FFF;
     height: 100%;
     padding: 32px 40px 16px 40px;
+    min-height: calc(100vh - 75px);
     a.link-nav {
         text-decoration: none;
         color: #0B0528;
