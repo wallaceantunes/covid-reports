@@ -1,0 +1,21 @@
+main {
+    flex: 7;
+    display: flex;
+    padding: 40px 33px;
+    flex-direction: column;
+    .title{
+        font-weight: 700;
+        font-size: 24px;
+    }
+    .subtitle {
+        font-weight: 700;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 850px)
+{
+  main {
+      padding: 40px 20px;
+  }
+}
